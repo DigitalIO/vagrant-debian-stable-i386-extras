@@ -1,0 +1,15 @@
+master: localhost
+file_client: local
+
+postgres.host: 'localhost'
+postgres.port: '5432'
+postgres.user: 'postgres'
+postgres.pass: 'development'
+postgres.maintenance_db: 'postgres'
+
+grains:
+  role:
+    - development
+    - nodejs
+    - postgres
+    - zeromq
